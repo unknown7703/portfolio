@@ -1,6 +1,9 @@
-import Navbarm from "./navbar/navbar"
+import Navbarm from "./navbar/navbar";
+import Body from "./body/body";
 function Layout(){
-    return(<Navbarm/>
+    return(<div><Navbarm/>
+    <Body/>
+    </div>
     );
 }
 export default Layout;
