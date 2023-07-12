@@ -1,5 +1,6 @@
 import Navbarm from "./navbar/navbar"
 function Layout(){
-    return(<Navbarm/>);
+    return(<Navbarm/>
+    );
 }
 export default Layout;
