@@ -1,4 +1,4 @@
-import { BriefcaseBusiness,SquareChevronRight } from "lucide-react";
+import { BriefcaseBusiness,SquareChevronRight ,ShieldCheck } from "lucide-react";
 
 export function InfoSection() {
   return (
@@ -7,7 +7,7 @@ export function InfoSection() {
         <div className="w-full md:w-[70%] bg-muted p-6 rounded-lg shadow-lg">
           <div className="flex items-center gap-2 mb-4 text-sm md:text-xl font-semibold">
             <BriefcaseBusiness />
-            <span>Education / Experience</span>
+            <span>Education | Experience</span>
           </div>
           <div className="flex flex-col gap-4 text-sm md:text-xl">
             <div className="flex justify-between">
@@ -25,7 +25,7 @@ export function InfoSection() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mb-40 px-10 md:px-24">
+      <div className="flex justify-center mb-14 px-10 md:px-24">
         <div className="w-full md:w-[70%] bg-muted p-6 rounded-lg shadow-lg">
           <div className="flex items-center gap-2 mb-4 text-sm md:text-xl font-semibold">
           <SquareChevronRight />
@@ -39,6 +39,32 @@ export function InfoSection() {
             <div className="flex justify-between">
               <p>CodeForces</p>
               <p>1332 | Pupil</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center mb-40 px-10 md:px-24">
+        <div className="w-full md:w-[70%] bg-muted p-6 rounded-lg shadow-lg">
+          <div className="flex items-center gap-2 mb-4 text-sm md:text-xl font-semibold">
+          <ShieldCheck />
+            <span>Skills | Certifications </span>
+          </div>
+          <div className="flex flex-col gap-4 text-sm md:text-xl">
+            <div className="flex justify-between">
+              <p>Languages</p>
+              <p>TypeScript, Javascript, Java, C++ </p>
+            </div>
+            <div className="flex justify-between">
+              <p>Frameworks</p>
+              <p>Next.js, React, Node/Express ,Fast API</p>
+            </div>
+            <div className="flex justify-between">
+              <p>Other skils</p>
+              <p>PostGre SQL, Git/Github, linux</p>
+            </div>
+            <div className="flex justify-between">
+              <p>Certification</p>
+              <p>AWS Cloud Practitioner</p>
             </div>
           </div>
         </div>

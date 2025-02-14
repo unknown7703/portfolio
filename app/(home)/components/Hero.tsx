@@ -6,7 +6,7 @@ import { CircleArrowDown } from "lucide-react";
 
 export default function Hero() {
   const handleScroll = () => {
-    window.scrollBy({ top: 500, behavior: "smooth" });
+    window.scrollBy({ top: 800, behavior: "smooth" });
   };
 
   return (
