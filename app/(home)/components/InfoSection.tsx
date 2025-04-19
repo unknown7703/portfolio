@@ -34,7 +34,7 @@ export function InfoSection() {
           <div className="flex flex-col gap-4 text-sm md:text-xl">
             <div className="flex justify-between">
               <p>Leetcode</p>
-              <p>1721 | top 11.4%</p>
+              <p>1855 | Knight top 5.5%</p>
             </div>
             <div className="flex justify-between">
               <p>CodeForces</p>
